@@ -1,0 +1,69 @@
+/* style.css */
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background and font styles */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: monospace;
+}
+
+/* Add some margin and padding */
+header, nav, section, footer {
+    margin: 1em;
+    padding: 1em;
+}
+
+/* Style the header and navigation */
+header {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Style the about, portfolio, and contact sections */
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: auto;
+}
+
+/* Add some terminal-like effects */
+#typed::after {
+    content: "_";
+    animation: cursor 0.7s infinite;
+}
+
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}

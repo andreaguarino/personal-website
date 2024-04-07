@@ -81,6 +81,10 @@ h2 {
     margin-bottom: 0.5em;
 }
 
+#portfolio > p {
+    padding-bottom: 1em;
+}
+
 /* Style the footer */
 footer {
     text-align: center;
